@@ -1,0 +1,272 @@
+.navbar-brand{
+    color: #fcae61!important;
+}
+.nav-span{
+    color: #242f51!important;
+}
+.nav-link{
+    color: #242f51!important;
+}
+.btn{
+    width: 140px;
+    height: 50px;
+}
+.banner{
+    z-index: -5;
+    position: relative;
+    width: 100%;
+    height: 700px;
+    background-image: url('../img/bnr bg img.png');
+    background-size: cover;
+
+}
+.bnr-img{
+    width: 52%;
+    height: 575px;
+}
+.bnr-clr{
+    width: 70%;
+    height: 50px;
+    background-color: #e2eaed;
+}
+.bnr-clr-img{
+    width: 15%;
+    height: 50px;
+    object-fit: cover;
+}
+.bnr-clr-icon{
+    margin: 0px 0px 0px -45px;
+    width: 20px;
+    height: 20px;
+}
+.bnr-clr-para{
+    color: #242f51;
+    margin: -37px 0px 0px 70px;
+}
+.bnr-move{
+    position: absolute;
+    margin-top: -400px;
+}
+.bnr-head{
+    color: #242f51;
+    font-size: 55px;
+}
+.bnr-para {
+    font-size: 20px;
+    color: grey;
+}
+.company{
+    height: 400px;
+    width: 100%;
+}
+.company-gap{
+    width: 100%;
+    height: 110px;
+}
+.company-para{
+    color: #242f51;
+    font-weight: bold;
+    font-size: 12px;
+}
+.container{
+    column-gap: 50px; 
+    justify-content: center;
+}
+.feature{
+    height: 820px;
+    width: 100%;
+}
+.feature-box{
+    display: flex;
+    flex-direction: row;
+}
+.feature-head{
+    color: #242f51;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+.feature-para{
+    color: grey;
+    margin-bottom: 100px;
+}
+.feature-img{
+    width: 75%;
+    height: auto;
+}
+/* .feature-circle{
+    margin-top: 15px;
+} */
+.feature-logo {
+    margin-left: -77px;
+}
+.feature-text{
+    margin: -90px 0px 0px 120px;
+}
+.feature-row-head1{
+    margin-bottom: 15px;
+    color: #f55767;
+}
+.feature-row-head2{
+    margin-bottom: 15px;
+    color: #2563ff;
+}
+.feature-row-head3{
+    margin-bottom: 15px;
+    color: #40975f;
+}
+.feature-row-para{
+    color: grey;
+}
+.write{
+    width: 100%;
+    height: 300px;
+}
+.write-clr{
+    width: 1px;
+    height: 200px;
+    background-color: #e2eaed;
+}
+.benefit-icon{
+    margin-left: -75px;
+}
+.design-img{
+    width: 85%;
+}
+.design-head{
+    margin-top: 60px;
+    margin-bottom: 25px;
+}
+.app-icon{
+    margin-left: -75px;
+}
+.app-img{
+    /* justify-content: center;
+    align-items: center; */
+    margin-left: 70px;
+}
+.ultimate-box-img2{
+    position: absolute;  
+    margin: 0px 0px 0px 0px;
+}
+.ultimate-box-img3{
+    margin: 0px 0px 0px 0px;
+}
+.charges-clr{
+    width: 30%;
+    height: 80px;
+    border-color: #fcae61;
+}
+box{
+    width: 20%;
+    height: 530px;
+}
+.price-box{
+    height: 470px;
+    width: 300px;
+    box-shadow: 5px 5px 3px grey;
+}
+.price-box:hover{
+    
+}
+.price-top-box{
+    height: 200px;
+    background-color: #f4f7f9;
+}
+.price-head{
+    font-size: 50px;
+    color: #242f51;
+    font-weight: bold;
+}
+.price-span{
+    font-size: 30px;
+    color:#b9bbc1;
+    font-weight: 300;
+}
+.price-para{
+    color:#b9bbc1;
+}
+.price-box2{
+    width: 320px;
+    height: 530px;
+    box-shadow: 0px 0px 3px grey;
+}
+.client-img{
+    height: 550px;
+    object-fit: cover;
+}
+.client-star{
+    margin-top: -15px;
+}
+.client-arrow{
+    width: 10%;
+    height: 30px;
+}
+.client-bottom-head{
+    margin-top: 15px;
+    color: #242f51;
+}
+.client-span{
+    color: #b9bbc1;
+}
+.question-box{
+    width: 75%;
+    height: 140px;
+    background-color: #f5f7fa;
+}
+.question-box1{
+    width: 75%;
+    height: 60px;
+    background-color: #f5f7fa;
+}
+.plus{
+    margin-left: 250px;
+    width: 2%;
+    height: 25px;
+}
+.download-img{
+    width: 100%;
+}
+.ftr{
+    margin-top: -35px;
+    width: 100%;
+    height: 470px;
+    background-color: #09142e;
+}
+
+@media only screen and (max-width: 890px){
+    .container{
+        flex-wrap: wrap!important;
+    }
+    .question-box{
+        height: 230px;
+    }
+    .question-box1{
+        height: 160px;
+    }
+    .write{
+        margin-top: 450px!important;
+    }
+    .benefit{
+        margin-top: 100px!important;
+    }
+    .design{
+        margin-top: 500px!important;
+    }
+    .price-box2{
+        margin-top: 100px!important;
+    }
+    .client-hole{
+        flex-wrap: wrap!important;
+    }
+    .download-para{
+        font-size: 10px!important;
+    }
+}
+@media only screen and (max-width: 1000px){
+    .write{
+        margin-top: 250px!important;
+    }
+    .ftr{
+        margin-top: 0px;
+    }
+}
